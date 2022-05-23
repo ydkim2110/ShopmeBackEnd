@@ -12,6 +12,7 @@ public class UserService {
     @Autowired
     private UserRepository repo;
 
+    // 주석추가
     public List<User> listAll() {
         return repo.findAll();
     }
